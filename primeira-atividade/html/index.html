@@ -4,108 +4,142 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Projeto Animes</title>
 
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    
 </head>
 <body>
 
     <header>
-        <div class="content">
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="oq-e-anime.html">O que é Anime</a></li>
-                    <li><a href="animes-populares.html">Animes Populares</a></li>
-                    <li><a href="sobre-mim.html">Sobre Mim</a></li>
-                    <li><a href="referencias.html">Referencias</a></li>
-                </ul>
-            </nav>
-        </div>
+        <h1>Projeto Animes</h1>
+        <nav>
+            <h2>Nav</h2>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="oq-e-anime.html">O que é Anime</a></li>
+                <li><a href="animes-populares.html">Animes Populares</a></li>
+                <li><a href="referencias.html">Referências</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
         <article>
-            
-            <h1 class="pageTittle">Projeto Animes</h1>
+
+            <h2>Projeto</h2>
 
             <section id="Introducao">
-                <h2 >Introdução</h2>
+                <h3>Introdução</h3>
                 <p>
-                    Olá, meu nome é Caio Levi Mendes Costa. 
-                    Eu sou aluno do P5 do Curso Técnico Integrado em informática.
+                    Olá! Meu nome é Caio Levi Mendes Costa. Eu sou aluno do P5 
+                    do Curso Técnico Integrado em Informática, no IFCE.
                     <br>
-                    Esse "site" é uma introdução ao tema com o qual eu quero 
-                    fazer meu trabalho na disciplina de Programação Web, 
-                    além do que o próprio trabalho será.
+                    Esse site foi desenvolvido como parte da Disciplina de Programação 
+                    Web 1, do Professor José Roberto Bezerra e cujo tema escolhido foi
+                    <a href="oq-e-anime.html" target="blank">Anime</a>.          
                     <br>
-                    O tema que eu escolhi é <b>Animes</b>. 
-                    Para aqueles que não conhecem o que é <a href="oq-e-anime.html">clique aqui</a>. 
-                    Mas em resumo, animes são animações de produçao japonesa.
-                    <br>
-                    Um ponto importante é que eu não planejo (por enquanto) fazer um player de animes,
-                    e sim, um banco de dados de animes  
                 </p>
                 <img src="../img/one_piece_gif_introduco.gif" alt="gif one piece" width="300">
             </section>
 
             <section id="justificativa">
-                <h2>Justificativa</h2>
-                <p>
-                    O objetivo de eu querer trabalhar com esse tema é por gosto pessoal. 
-                    Eu sempre gostei de animes e comecei a assistir desde muito cedo.
-                    <br>
-                    Se eu tivesse que dizer, os animes foram uma parte muito importante na minha 
-                    vida e influenciou muito em quem eu sou atualmente
-                </p>
+                <h3>Justificativa</h3>
+                <div>
+                    <p>O tema foi escolhido por causa da minha afinidade com as animações japonesas e porque acredito que os animes são uma forma importante de mídia que atinge grande público.</p>
+                    <p></p>
+                </div>
             </section>
 
             <section id="objetivos">
-                <h2>Objetivos</h2>
-                <dl>
-                    <dt><b>Catálogo de Animes</b></dt>
-                    <dd>
-                        Criar um banco de dados com o máximo de animes possível usando os dados do 
+                <h3>Objetivos</h3>
+                <div>
+                    <h4>Catálogo de Animes</h4>
+                    <p>
+                        Criar um banco de dados com o máximo possível de animes usando os dados do 
                         MAL (My Anime List) traduzidos, formando um catálogo com os dados. 
-                        Cada anime salvo deve ter os seguintes atributos:
-                        <ul>
-                            <li>Nome do Anime</li>
-                            <li>Quantidade de Episódios</li>
-                            <li>Gêneros</li>
-                            <li>Nota do MAL</li>
-                            <li>Ano de Lançamento e Temporada</li>
-                            <li>Sinopse</li>
-                        </ul>
-                    </dd>
+                        Cada anime conterá, pelo menos, os seguintes atributos:
+                    </p>
+                    <ul>
+                        <li>Nome do Anime</li>
+                        <li>Quantidade de Episódios</li>
+                        <li>Gêneros</li>
+                        <li>Status</li>
+                        <li>Nota do MAL</li>
+                        <li>Ano de Lançamento e Temporada</li>
+                        <li>Sinopse</li>
+                    </ul>
+                    
+                    <h4>Mecanismo de Busca</h4>
+                    <p>
+                        O mecanismo de busca no catálogo de Animes possuirá filtros de pesquisa, como por exemplo:
+                    </p>
+                    <ul>
+                        <li>Gênero</li>
+                        <li>Nota do MAL</li>
+                        <li>Ano de Lançamento</li>
+                    </ul>
+                    
 
-                    <dt><b>Mecanismo de Busca</b></dt>
-                    <dd>
-                        Um mecanismo de busca no banco de dados de animes com os seguintes filtros:
-                        <ul>
-                            <li>Gênero</li>
-                            <li>Número de Episódios</li>
-                            <li>Ano de Lançamento</li>
-                        </ul>
-                    </dd>
+                    <h4>Calendário de Animes</h4>
+                    <p>
+                        O lançamento de animes, sejam novos ou continuações, é planejado por estação e os espisódios são lançados semanalmente, para exibir quais animes são lançados e em quais dias da semana.
+                    </p>
 
-                    <dt><b>Calendário de Animes</b></dt>
-                    <dd>
-                        O lançamento de animes, sejam novos ou continuações, é planejado por estação e os espisódios são lançados semanalmente. 
-                        Eu quero fazer um calendário de quais animes são lançados e em quais dias da semana
-                    </dd>
-
-                </dl>
-                <h3>Extra</h3>
+                </div>
+                <h4>Extra</h4>
                 <ul>
-                    <li>Mecanismo de Interação onde os usuários podem dar notas aos animes além de deixar opniões sobre eles</li>
+                    <li>Mecanismo de Interação onde os usuários podem dar notas aos Animes, além de deixar opniões sobre eles.</li>
+                    <li>Possibilidade dos usuários se cadastrarem e fazerem listas de seus Animes favoritos.</li>
+                    <li>Mecanismo de recomendação de animes</li>
                 </ul>
             </section>
 
             <section id="prazo">
-                <h2>Prazo</h2>
-                <ul>
+                <h3>Prazo</h3>
 
-                </ul>
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Tarefa</th>
+                            <th>Tempo Estimado</th>
+                        </tr>
+                        <tr>
+                            <td>Fazer HTML básico de cada página</td>
+                            <td>4~7 dias</td>
+                        </tr>
+                        <tr>
+                            <td>Fazer CSS de cada página</td>
+                            <td>4~7 dias</td>
+                        </tr>
+                        <tr>
+                            <td>Criar Banco de Dados</td>
+                            <td>2~3 dias</td>
+                        </tr>
+                        <tr>
+                            <td>Criar mecanismo de coleta de dados</td>
+                            <td>1~2 dias</td>
+                        </tr>
+                        <tr>
+                            <td>Armazenar os dados no banco</td>
+                            <td>1~2 dias</td>
+                        </tr>
+                        <tr>
+                            <td>Preencher a página com os dados</td>
+                            <td>1~2 dias</td>
+                        </tr>
+                        <tr>
+                            <td>Criar mecanismo de busca no banco</td>
+                            <td>1~2 dias</td>
+                        </tr>
+                        <tr>
+                            <td>Associar mecanismo de busca a página</td>
+                            <td>2~3 dias</td>
+                        </tr>
+                    </tbody>
+                </table>
+
             </section>
 
         </article>
