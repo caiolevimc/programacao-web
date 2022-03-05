@@ -5,3 +5,13 @@
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
+
+main, .content{
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+article{
+  margin: 0;
+  padding: 0;
+}
