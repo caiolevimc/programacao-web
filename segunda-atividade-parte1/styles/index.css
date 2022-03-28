@@ -1,0 +1,29 @@
+table,
+tr,
+th,
+td {
+  border: 2px solid black;
+  border-collapse: collapse;
+  padding: 4px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+table {
+  margin-top: 20px;
+}
+
+th {
+  background-color: var(--blue-3);
+  color: white;
+}
+
+td {
+  background-color: var(--orange-1);
+  font-weight: 500;
+}
+
+td a {
+  color: white;
+}

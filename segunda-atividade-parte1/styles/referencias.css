@@ -1,0 +1,6 @@
+section a {
+  text-decoration: none;
+}
+section a:hover {
+  color: var(--orange-2);
+}
