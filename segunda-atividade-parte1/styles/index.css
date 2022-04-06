@@ -24,6 +24,26 @@ td {
   font-weight: 500;
 }
 
+td img{
+  width: 80%;
+  height: 80%;
+  margin: 0 auto;
+}
+
 td a {
   color: white;
+}
+
+#text-layout{
+  font-weight: 700;
+  font-style: normal;
+  color: var(--orange-1);
+}
+
+#img-paleta-de-cores{
+  width: 60%;
+  height: 60%;
+  margin: 0 auto;
+  border: 3px solid var(--blue-3);
+  margin-top: 15px;
 }
